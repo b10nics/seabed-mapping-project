@@ -1,0 +1,7 @@
+numpy
+pandas
+geopandas
+# GDAL (python3-gdal) was installed via apt
+rasterio
+matplotlib
+scikit-learn
