@@ -68,6 +68,7 @@ The script expects the following input files to be placed in the `input_data` di
 ## Output Files
 
 The script generates output files in the `Outputs_SeabedClassification` directory:
+
 *   **Terrain Feature Rasters:** `slope.tif`, `aspect.tif`, `tri.tif`, `tpi.tif`, `roughness.tif`, `hillshade.tif`.
 *   **Processed Backscatter:** `backscatter_aligned_to_bathy.tif`.
 *   **Stacked Features:** `stacked_features_for_classification.tif`.
@@ -108,13 +109,3 @@ Python 3 with the following major libraries: GDAL/OGR, Rasterio, GeoPandas, Pand
     python Seabed_classification_mod.py
     ```
 4.  **Check Outputs:** In the `Outputs_SeabedClassification` sub-directory.
-
-## `requirements.txt`
-
-```numpy
-pandas
-geopandas
-# GDAL (python3-gdal) usually installed via system/conda
-rasterio
-matplotlib
-scikit-learn
